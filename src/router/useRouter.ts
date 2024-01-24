@@ -16,9 +16,7 @@ class UserRouter{
 
 
     getRouter(){
-        this.router.get("/",
-        userValidation.userData(),
-        UserController.userData)
+       
     }
     postRouter(){
         this.router.post("/create",
